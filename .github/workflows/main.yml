@@ -9,7 +9,7 @@ jobs:
   jekyll:
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - name: Build & Deploy to GitHub Pages
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
