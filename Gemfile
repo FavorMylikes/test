@@ -9,6 +9,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll"
 # Theme
+gem "therubyracer"
 group :jekyll_plugins do
   gem 'jekyll-katex'
 end
