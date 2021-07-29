@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: KaTeX with Jekyll
 katex: true
 ---
