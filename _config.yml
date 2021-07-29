@@ -1,4 +1,4 @@
-theme: jekyll-dash
+theme: minimal-mistakes-jekyll
 title: 麦丽素 Notes
 locale: "en-US"
 description: >- # this means to ignore newlines until "baseurl:"
@@ -8,7 +8,7 @@ url: "https://favormylikes.github.io"
 github_username:  FavorMylikes
 plugins:
   - jekyll-katex
-  
+
 markdown: kramdown
 kramdown:
   math_engine: katex
