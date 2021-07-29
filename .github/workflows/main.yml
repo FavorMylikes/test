@@ -15,12 +15,12 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
-      - uses: helaili/jekyll-action@v2
+      - uses: limjh16/jekyll-action-ts@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           enable_cache: true
           jekyll_src: .
           gem_src: .
+        
       - name: 🚀 deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
