@@ -10,7 +10,8 @@ source "https://rubygems.org"
 gem "jekyll"
 gem "therubyracer"
 # Theme
-gem "jekyll-dash", "~> 2.0.0"
+gem "minimal-mistakes-jekyll"
+# gem "jekyll-dash", "~> 2.0.0"
 group :jekyll_plugins do
   gem 'jekyll-katex'
   gem "kramdown-math-katex"
