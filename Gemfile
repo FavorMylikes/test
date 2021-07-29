@@ -8,8 +8,9 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll"
-# Theme
 gem "therubyracer"
+# Theme
+gem "jekyll-dash", "~> 2.0.0"
 group :jekyll_plugins do
   gem 'jekyll-katex'
 end
