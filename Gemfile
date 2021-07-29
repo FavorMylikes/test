@@ -13,6 +13,9 @@ gem "therubyracer"
 gem "jekyll-dash", "~> 2.0.0"
 group :jekyll_plugins do
   gem 'jekyll-katex'
+  gem "kramdown-math-katex"
+  gem "katex"
+  gem "execjs"
 end
 
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
