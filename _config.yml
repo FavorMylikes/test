@@ -6,7 +6,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/hackmd-note" # the subpath of your site, e.g. /blog
 url: "https://favormylikes.github.io"
 github_username:  FavorMylikes
-
+plugins:
+  - jekyll-katex
+  
 markdown: kramdown
 kramdown:
   math_engine: katex
