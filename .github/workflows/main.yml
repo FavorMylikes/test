@@ -15,10 +15,6 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
-      - name: Build and test with Rake
-        run: |
-          gem install bundler
-          bundle install --jobs 4 --retry 3
       - uses: limjh16/jekyll-action-ts@v2
         with:
           enable_cache: true
